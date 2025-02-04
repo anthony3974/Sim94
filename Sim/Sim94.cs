@@ -10,7 +10,7 @@ using Timer = System.Windows.Forms.Timer;
 
 namespace Sim
 {
-    public enum Visable { Show, Hide, }
+    public enum Visible { Show, Hide, }
     public partial class Sim94 : Form
     {
         #region controls
@@ -481,9 +481,9 @@ namespace Sim
         }
         #endregion
         #region my funtions
-        private void ShowUi(Visable howMany)
+        private void ShowUi(Visible howMany)
         {
-            if (howMany == Visable.Hide)
+            if (howMany == Sim.Visible.Hide)
             {
                 btnStart.Hide();
                 btnLoad.Hide();
@@ -502,7 +502,7 @@ namespace Sim
                 tmrKeyTimer.Start();
                 start = true;
             }
-            else if (howMany == Visable.Show)
+            else if (howMany == Sim.Visible.Show)
             {
                 btnStart.Show();
                 btnLoad.Show();
@@ -1057,7 +1057,7 @@ namespace Sim
         }
         private void BtnStart_Click(object sender, EventArgs e)
         {
-            ShowUi(Visable.Hide);
+            ShowUi(Sim.Visible.Hide);
             // get address/name text
             address = (txtOpt.Text.Length > 0) ? txtOpt.Text : "A";
             // format it
