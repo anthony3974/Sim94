@@ -1,0 +1,23 @@
+At the start screen it shows that you can press c for controls while in the game
+the start button makes a new game and will overwrite the old save file
+the load button will attempt to load the game data from a text file, if it fails it will make a new game
+Enter a name: you can put your name in the text widget for the address of the house
+
+the point of the game is to buy many fields and take care of them, harvest then sell them.
+
+once you press start you can use the arrow keys or WASD to move the tractor
+i is the main key for interacting with fields but buying and selling is b and v
+you start off owning field 19, right above the house.
+there is no collision yet so you go straight up then press i and a message will show " waiting for second key" second key is J K L,
+each stand for a crop type as stated in controls.
+then after a crop is planted it will turn green and you have the option to fertilize the field
+fertilizing the field will result in a higher yield. 10% for each stage, (max 20%)
+(made an update to fertilizer because a profit was not being made instead of 20% its now 90%)
+then it takes 160 seconds to 205 seconds to grow fully, stage 1 taking the longest
+the van is used for fast selling of crops and traveling to places
+the harvester is used for getting an extar 60% yield for every harvest when using it but it is slower at moving.
+you can buy and sell fields without losing money for selling
+after harvest then you move towards the selling station to collect profit. 
+buying and selling certian things like crops and seeds are a diffrent amount eachtime.
+i also saves the game and on form closing
+i don't know what happens when the fuel runs out

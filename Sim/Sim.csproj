@@ -38,7 +38,7 @@
   <ItemGroup>
     <Reference Include="ImgMover, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\ImgMover.dll</HintPath>
+      <HintPath>bin\Debug\ImgMover.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
