@@ -1,4 +1,6 @@
-# Sim94
+# Farming Sim94 Windows Forms
+
+### ...Video below...
 
 A **2D framing simulator game** developed entirely by me. Sim94 offers a unique blend of strategic gameplay, interactive locations, and customizable features.
 
@@ -28,7 +30,7 @@ A **2D framing simulator game** developed entirely by me. Sim94 offers a unique 
 ## Installation
 1. Download the game files.
 2. Extract the contents into a folder.
-3. Run `Sim.exe` to start playing.
+3. Run `Sim.exe` in the release folder to start playing.
 
 ## Controls
 | Key           | Action                  |
@@ -40,3 +42,6 @@ A **2D framing simulator game** developed entirely by me. Sim94 offers a unique 
 Sim94 is a passion project built from the ground up to offer a fun and engaging simulation experience. All aspects, from the map to the truck designs, were created by hand.
 
 Enjoy the game!
+
+[![Innovative App Demo](https://img.youtube.com/vi/Z43YtC1acWA/0.jpg)](https://youtu.be/Z43YtC1acWA)
+
